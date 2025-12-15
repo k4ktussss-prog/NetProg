@@ -1,7 +1,7 @@
 CXX = g++
 CXXFLAGS = -std=c++17 -Wall -Wextra -pedantic
-TARGET = echo_client
-SOURCES = echo_client.cpp
+TARGET = daytime_client
+SOURCES = daytime_client.cpp
 OBJS = $(SOURCES:.cpp=.o)
 
 all: $(TARGET)
